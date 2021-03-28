@@ -34,7 +34,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
 
     //生成的路径以及文件名
     private static final String OUTPUT_FOLDER = "src/main/java/com/ly/report/";
-    private static final String FILE_NAME = "report.html";
+    private static final String FILE_NAME = "Report";
 
     private ExtentReports extent;
 
@@ -127,7 +127,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
             reportDir.mkdir();
         }
         String dateTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH:mm:ss"));
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + dateTime + "_" + FILE_NAME);
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME + "_" + dateTime + ".html");
 
 
         // 设置静态文件的DNS

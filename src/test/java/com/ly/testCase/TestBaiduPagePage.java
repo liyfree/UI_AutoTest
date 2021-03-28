@@ -24,7 +24,6 @@ import java.util.List;
  * @author: liyang
  * @create: 2021-03-21 11:46
  **/
-//@Listeners({ScreenShotListener.class})
 public class TestBaiduPagePage extends TestBasePage {
     private final static Logger logger = LoggerFactory.getLogger(TestBaiduPagePage.class);
 

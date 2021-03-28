@@ -16,5 +16,7 @@
         <listener class-name="com.ly.listener.ExtentTestNGIReporterListener"></listener>
         <!--用例执行失败调用截图-->
         <listener class-name="com.ly.listener.ScreenShotListener"></listener>
+        <!--失败重试监听器-->
+        <listener class-name="com.ly.listener.RetryListener"></listener>
     </listeners>
 </suite> <!-- Suite -->
