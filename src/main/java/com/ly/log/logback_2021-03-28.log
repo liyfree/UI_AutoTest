@@ -1,0 +1,25 @@
+[2021-03-28 10:48:16.824][com.ly.testCase.TestBaiduPagePage:40]INFO  -- 浏览器打开url地址：https://www.baidu.com/
+[2021-03-28 10:48:21.456][com.ly.testCase.TestBaiduPagePage:54]INFO  -- 输入搜索内容：NBA
+[2021-03-28 10:48:21.457][com.ly.business.BaiduBusiness:35]INFO  -- 百度输入框输入：NBA
+[2021-03-28 10:48:22.025][com.ly.business.BaiduBusiness:39]WARN  -- 点击搜索按钮
+[2021-03-28 10:48:22.225][com.ly.testCase.TestBaiduPagePage:56]INFO  -- 获取当前页面title：百度一下，你就知道
+[2021-03-28 10:48:23.120][com.ly.testCase.TestBaiduPagePage:54]INFO  -- 输入搜索内容：TestNG
+[2021-03-28 10:48:23.121][com.ly.business.BaiduBusiness:35]INFO  -- 百度输入框输入：TestNG
+[2021-03-28 10:48:23.355][com.ly.business.BaiduBusiness:39]WARN  -- 点击搜索按钮
+[2021-03-28 10:48:23.623][com.ly.testCase.TestBaiduPagePage:56]INFO  -- 获取当前页面title：NBA_百度搜索
+[2021-03-28 10:48:24.217][com.ly.testCase.TestBaiduPagePage:54]INFO  -- 输入搜索内容：selenium
+[2021-03-28 10:48:24.217][com.ly.business.BaiduBusiness:35]INFO  -- 百度输入框输入：selenium
+[2021-03-28 10:48:24.416][com.ly.business.BaiduBusiness:39]WARN  -- 点击搜索按钮
+[2021-03-28 10:48:24.518][com.ly.testCase.TestBaiduPagePage:56]INFO  -- 获取当前页面title：TestNG_百度搜索
+[2021-03-28 10:48:25.408][com.alibaba.excel.metadata.property.ExcelHeadProperty:92]DEBUG -- The initialization sheet/table 'ExcelHeadProperty' is complete , head kind is NONE
+[2021-03-28 10:48:25.463][com.alibaba.excel.context.AnalysisContextImpl:69]DEBUG -- Initialization 'AnalysisContextImpl' complete
+[2021-03-28 10:48:25.684][com.alibaba.excel.cache.selector.SimpleReadCacheSelector:73]DEBUG -- Use map cache.size:930
+[2021-03-28 10:48:26.331][com.alibaba.excel.util.SheetUtils:39]DEBUG -- The first is read by default.
+[2021-03-28 10:48:26.332][com.alibaba.excel.metadata.property.ExcelHeadProperty:92]DEBUG -- The initialization sheet/table 'ExcelHeadProperty' is complete , head kind is NONE
+[2021-03-28 10:48:26.333][com.alibaba.excel.context.AnalysisContextImpl:91]DEBUG -- Began to read：ReadSheetHolder{sheetNo=0, sheetName='Sheet1'} com.alibaba.excel.read.metadata.holder.xlsx.XlsxReadSheetHolder@14825c62
+[2021-03-28 10:48:26.389][com.ly.common.util.ExcelListener:36]INFO  -- 读取一行excel数据：{0=liyfree@qq.com, 1=liyang2012}
+[2021-03-28 10:48:26.415][com.ly.common.util.ExcelListener:36]INFO  -- 读取一行excel数据：{0=123, 1=123}
+[2021-03-28 10:48:26.416][com.ly.common.util.ExcelListener:59]INFO  -- excel所有数据读取完成！
+[2021-03-28 10:48:26.419][com.ly.testCase.TestBaiduPagePage:65]INFO  -- [{0=liyfree@qq.com, 1=liyang2012}, {0=123, 1=123}]
+[2021-03-28 10:48:26.653][com.ly.testCase.TestBaiduPagePage:48]INFO  -- 浏览器关闭！
+[2021-03-28 10:48:26.661][com.ly.listener.ExtentTestNGIReporterListener:44]INFO  -- 开始生成报告...

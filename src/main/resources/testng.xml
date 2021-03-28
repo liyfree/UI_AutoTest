@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI自动化测试套件" parallel="classes" thread-count="3">
+    <test verbose="2" preserve-order="true" name="百度测试">
+        <parameter name="driverName" value="chrome"/>
+        <classes>
+            <class name="com.ly.testCase.TestBaiduPagePage"></class>
+            <!--            <class name="com.dbyl.tests.Case1" />-->
+            <!--            <class name="com.dbyl.tests.loginTest" />-->
+        </classes>
+    </test> <!-- Test -->
+
+
+    <listeners>
+        <!-- class-name的值填写为时间创建的监听器的路径 -->
+        <listener class-name="com.ly.listener.ExtentTestNGIReporterListener"></listener>
+        <!--用例执行失败调用截图-->
+        <listener class-name="com.ly.listener.ScreenShotListener"></listener>
+    </listeners>
+</suite> <!-- Suite -->
